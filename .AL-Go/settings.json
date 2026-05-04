@@ -1,7 +1,14 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup/workspace_compilation_part2/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/4a049b1d/Actions/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
+  "appFolders": [
+    "TestApp"
+  ],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "enableAppSourceCop": true,
+  "enablePerTenantExtensionCop": false,
+  "appSourceCopMandatoryAffixes": [
+    "Test"
+  ]
 }
