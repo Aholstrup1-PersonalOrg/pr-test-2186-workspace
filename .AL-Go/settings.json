@@ -1,14 +1,1 @@
-{
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/4a049b1d/Actions/.Modules/settings.schema.json",
-  "country": "us",
-  "appFolders": [
-    "TestApp"
-  ],
-  "testFolders": [],
-  "bcptTestFolders": [],
-  "enableAppSourceCop": true,
-  "enablePerTenantExtensionCop": false,
-  "appSourceCopMandatoryAffixes": [
-    "Test"
-  ]
-}
+{"enablePerTenantExtensionCop":false,"$schema":"https://raw.githubusercontent.com/microsoft/AL-Go/4a049b1d/Actions/.Modules/settings.schema.json","testFolders":[],"bcptTestFolders":[],"enableAppSourceCop":true,"appFolders":["TestApp"],"country":"us","appSourceCopMandatoryAffixes":["Test"]}
