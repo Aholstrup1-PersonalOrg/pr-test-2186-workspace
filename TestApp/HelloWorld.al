@@ -1,7 +1,7 @@
-pageextension 1000001 TestCustomerListExt extends "Customer List"
+codeunit 1000002 TestStartup
 {
-    trigger OnOpenPage();
+    trigger OnRun()
     begin
-        Message('App published: Hello world');
+        Message('Hello');
     end;
 }

@@ -6,6 +6,11 @@
   ],
   "testFolders": [],
   "bcptTestFolders": [],
+  "workspaceCompilation": {
+    "enabled": true,
+    "parallelism": 1
+  },
+  "skipUpgrade": true,
   "enableAppSourceCop": true,
   "enablePerTenantExtensionCop": false,
   "appSourceCopMandatoryAffixes": [
