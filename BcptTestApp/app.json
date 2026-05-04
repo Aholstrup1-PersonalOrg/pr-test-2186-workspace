@@ -1,0 +1,25 @@
+{
+  "id": "99999999-9999-9999-9999-999999999999",
+  "name": "BcptTestApp",
+  "publisher": "TestPublisher",
+  "version": "1.0.0.0",
+  "dependencies": [
+    {
+      "id": "2e81c971-977e-4f2c-b864-57add4d7b435",
+      "name": "TestApp",
+      "publisher": "TestPublisher",
+      "version": "1.0.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 1000005,
+      "to": 1000010
+    }
+  ],
+  "application": "22.0.0.0",
+  "platform": "1.0.0.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

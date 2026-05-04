@@ -5,10 +5,12 @@
     "TestApp"
   ],
   "testFolders": [],
-  "bcptTestFolders": [],
-  "enableAppSourceCop": true,
-  "enablePerTenantExtensionCop": false,
-  "appSourceCopMandatoryAffixes": [
-    "Test"
-  ]
+  "bcptTestFolders": [
+    "BcptTestApp"
+  ],
+  "workspaceCompilation": {
+    "enabled": true,
+    "parallelism": 1
+  },
+  "enablePerTenantExtensionCop": false
 }
