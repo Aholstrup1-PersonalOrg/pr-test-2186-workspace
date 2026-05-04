@@ -4,4 +4,9 @@ pageextension 1000001 TestCustomerListExt extends "Customer List"
     begin
         Message('App published: Hello world');
     end;
+    
+    procedure TestSayHelloAgain()
+    begin
+        Message('Hello again');
+    end;
 }
